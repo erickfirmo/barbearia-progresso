@@ -20,17 +20,17 @@
 					<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 map-detail">
 						<ul>
 							<li>
-								<img class="img-responsive" src="assets/images/home-page/contact-img1.png" alt="">
+								<i class="fa contato fa-whatsapp"></i>
 								<h4>Endereço</h4>
 								<p>Rua Santo Cristo, 7B - Itaquera - São Paulo - SP</p>
 							</li>
 							<li>
-								<img class="img-responsive" src="assets/images/home-page/contact-img2.png" alt="">
+								<i class="fa contato fa-whatsapp"></i>
 								<h4>Whatsapp</h4>
 								<p>+55 11 95979-8683</p>
 							</li>
 							<li>
-								<img class="img-responsive" src="assets/images/home-page/contact-img3.png" alt="">
+							<i class="fa contato fa-envelope"></i>
 								<h4>Email</h4>
 								<a href="#">barbearia.progresso2020@gmail.com</a>
 							</li>

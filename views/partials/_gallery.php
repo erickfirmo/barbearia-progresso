@@ -24,23 +24,23 @@
 				<div class="portfolio-gal isotope">
 					<div class="folio-item headshaves col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="images/portfolio/1/1.jpg" class="pop_lbox">
+							<a href="gallery/corte1.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
 								<img src="gallery/corte1.jpg" class="img-responsive" alt=""/>
 							</a>
-							<!-- <div class="folio-border">
+							<div class="folio-border">
 								<div class="folio-detail">
-									<h5>OUR Best shaves</h5>
+									<h5>Corte Masculino</h5>
 									<h6>design and idea</h6>
 								</div>
-							</div> -->
+							</div>
 						</div>
 					</div>
 					<div class="folio-item restyle col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
 							<a href="gallery/corte2.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="assets/images/home-page/projects/2.jpg" class="img-responsive" alt=""/>
+								<img src="gallery/corte2.jpg" class="img-responsive" alt=""/>
 							</a>
 							<!-- <div class="folio-border">
 								<div class="folio-detail">
@@ -54,7 +54,7 @@
 						<div class="folio-thumb">
 							<a href="gallery/corte3.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="assets/images/home-page/projects/3.jpg" class="img-responsive" alt=""/>
+								<img src="gallery/corte3.jpg" class="img-responsive" alt=""/>
 							</a>
 							<!-- <div class="folio-border">
 								<div class="folio-detail">
@@ -68,7 +68,7 @@
 						<div class="folio-thumb">
 							<a href="gallery/corte4.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="assets/images/home-page/projects/4.jpg" class="img-responsive" alt=""/>
+								<img src="gallery/corte4.jpg" class="img-responsive" alt=""/>
 							</a>
 							<!-- <div class="folio-border">
 								<div class="folio-detail">

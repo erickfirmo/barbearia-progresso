@@ -20,7 +20,7 @@
 					<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 map-detail">
 						<ul>
 							<li>
-								<i class="fa contato fa-whatsapp"></i>
+								<i class="fa contato fa-map-marker"></i>
 								<h4>Endereço</h4>
 								<p>Rua Santo Cristo, 7B - Itaquera - São Paulo - SP</p>
 							</li>

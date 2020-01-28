@@ -1,5 +1,28 @@
 {
-    "require": {
-        "erickfirmo/router": "^1.0"
-    }
+    "name": "erickfirmo/Barbearia-Progresso",
+    "description": "Barbearia",
+    "keywords": ["barbearia"],
+    "type": "project",
+    "authors": [
+        {
+        "name": "Érick Firmo",
+        "email": "erickluques@gmail.com"
+        }
+    ],
+    "autoload": {
+          "psr-4": {
+              "System\\": "src/"
+           }
+      },
+      "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^5.0",
+      "erickfirmo/router": "^1.0"
+
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version": "1.0.0"
 }

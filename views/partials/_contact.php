@@ -3,8 +3,8 @@
 	<section id="contact" class="contact">
 		<div class="container">
 			<div class="h-page-title">
-				<h1>contacts</h1>
-				<span class="sub-title">salon location</span>
+				<h1>Contato</h1>
+				<span class="sub-title">localização do salão</span>
 				<div class="mustache">
 					<span><img class="img-responsive" src="assets/images/home-page/mustache.png" alt=""></span>
 				</div>
@@ -21,18 +21,18 @@
 						<ul>
 							<li>
 								<img class="img-responsive" src="assets/images/home-page/contact-img1.png" alt="">
-								<h4>Address</h4>
-								<p>3267 Willis Avenue Hastings, FL 32145</p>
+								<h4>Endereço</h4>
+								<p>Rua Santo Cristo, 7B - Itaquera - São Paulo - SP</p>
 							</li>
 							<li>
 								<img class="img-responsive" src="assets/images/home-page/contact-img2.png" alt="">
-								<h4>Phone</h4>
-								<p>+1 959 603 6035</p>
+								<h4>Whatsapp</h4>
+								<p>+55 11 95979-8683</p>
 							</li>
 							<li>
 								<img class="img-responsive" src="assets/images/home-page/contact-img3.png" alt="">
 								<h4>Email</h4>
-								<a href="#">up@sitename.com</a>
+								<a href="#">barbearia.progresso2020@gmail.com</a>
 							</li>
 						</ul>
 					</div>

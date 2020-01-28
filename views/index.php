@@ -147,11 +147,10 @@
 	</div>
 	<!-- INTRO -->
 
-	<!-- ABOUT -->
+	<!-- ABOUT
 	<section id="about" class="about">
-		<!-- Container Start -->
 		<div class="container">
-			<!-- Common Title Start -->
+
 			<div class="h-page-title">
 				<h1>about</h1>
 				<span class="sub-title">a little about us</span>
@@ -159,7 +158,7 @@
 					<span><img class="img-responsive" src="assets/images/home-page/mustache.png" alt=""></span>
 				</div>
 			</div>
-			<!-- Common Title End -->
+
 			<div class="about-main">
 				<div class="row">
 					<div class="class-xs-12 col-sm-6 col-md-6">
@@ -172,6 +171,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="about-bottom">
 				<span>“</span>
 				<p>Maecenas sodales ligula non velit pretium, ac aliquet nisi auctor. Morbi eu ipsum sit amet nunc sodales volutpat. Vivamus dignissim interdum ex quis tincidunt. Sed vitae felis tellus. Mauris tristique nisl ut quam faucibus, ac volutpat urna dictum. Vestibulum tincidunt neque molestie ante mollis scelerisque. Nullam condimentum sodales tellus. Sed convallis magna nec tincidunt malesuada. Quisque auctor sapien sed nisi bibendum, in porta risus scelerisque.</p>
@@ -182,35 +182,6 @@
 		</div>
 	</section>
 	<!-- ABOUT -->
-
-	<!-- STATS -->
-	<section id="stats">
-		<div class="stats">
-			<div class="container">
-				<div class="col-xs-12 col-sm-3 col-md-3">
-					<h1>1500</h1>
-					<img src="assets/images/mustache.png" alt="">
-					<h6>Clients</h6>
-				</div>
-				<div class="col-xs-12 col-sm-3 col-md-3">
-					<h1>490</h1>
-					<img src="assets/images/mustache.png" alt="">
-					<h6>CUPS OF COFFEE</h6>
-				</div>
-				<div class="col-xs-12 col-sm-3 col-md-3">
-					<h1>2708</h1>
-					<img src="assets/images/mustache.png" alt="">
-					<h6>likes</h6>
-				</div>
-				<div class="col-xs-12 col-sm-3 col-md-3">
-					<h1>1500</h1>
-					<img src="assets/images/mustache.png" alt="">
-					<h6>best looks</h6>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- STATS -->
 
 	<!-- SERVICES -->
 	<section id="service" class="service">
@@ -276,7 +247,7 @@
 	</section>
 	<!-- SERVICES -->
 
-	<!-- TEAM / BARBERS -->
+	<!-- TEAM / BARBERS
 	<section id="team-barber" class="team-barber">
 		<div class="container">
 			<div class="h-page-title">
@@ -492,7 +463,7 @@
 	</section>
 	<!-- PRICING -->
 
-	<!-- BLOG -->
+	<!-- BLOG
 	<section id="blog" class="blog">
 		<div class="container">
 			<div class="h-page-title">
@@ -606,6 +577,36 @@
 		</div>
 	</section>
 	<!-- BLOG -->
+
+    
+	<!-- STATS -->
+	<section id="stats">
+		<div class="stats">
+			<div class="container">
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<h1>1500</h1>
+					<img src="assets/images/mustache.png" alt="">
+					<h6>Clients</h6>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<h1>490</h1>
+					<img src="assets/images/mustache.png" alt="">
+					<h6>CUPS OF COFFEE</h6>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<h1>2708</h1>
+					<img src="assets/images/mustache.png" alt="">
+					<h6>likes</h6>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<h1>1500</h1>
+					<img src="assets/images/mustache.png" alt="">
+					<h6>best looks</h6>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- STATS -->
 
 	<!-- CONTACT -->
 	<section id="contact" class="contact">

@@ -32,8 +32,8 @@
 	<link rel="stylesheet" href="assets/css/custom.css">
 
 
-	<!-- JS Font Script -->
-	<script src="http://use.edgefonts.net/bebas-neue.js"></script>
+	<!-- JS Font Script
+	<script src="http://use.edgefonts.net/bebas-neue.js"></script>  -->
 
 	<!-- Modernizer -->
 	<script src="assets/js/modernizr.custom.97074.js"></script>

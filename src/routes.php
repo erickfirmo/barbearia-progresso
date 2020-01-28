@@ -1,9 +1,10 @@
 <?php
 
-$router->setNamespace('System\\');
+// Defining namespace
+$router->setNamespace('System\Controllers\\');
 
+// Defining routes
 $router->get(['/', 'SiteController@index']);
 
-$router->get(['/', 'Mailler@index']);
-
+$router->post(['/sendmail', 'MailController@send']);
   

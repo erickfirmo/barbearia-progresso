@@ -2,7 +2,7 @@
 
 namespace System\Controllers;
 
-class Mailler {
+class MailController {
     public function __construct()
     {
 

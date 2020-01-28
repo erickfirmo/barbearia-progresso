@@ -10,13 +10,13 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Barbershop | Responsive Multipurpose Salon Template</title>
+	<title>Barbearia Progresso</title>
 
 	<!-- Mobile Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="shortcut icon" href="assets/images/favicon.png">
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
@@ -53,7 +53,7 @@
 
 		include 'partials/_pricing.php';
 		
-		include 'partials/_stats.php';
+		//include 'partials/_stats.php';
     
         include 'partials/_contact.php';
 

@@ -29,6 +29,8 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/dark.css">
 	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+
 
 	<!-- JS Font Script -->
 	<script src="http://use.edgefonts.net/bebas-neue.js"></script>

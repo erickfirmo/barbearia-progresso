@@ -43,13 +43,15 @@
 <div class="wrapper">
     <?php
 
-        include 'partials/_header.php'; 
-
+		include 'partials/_header.php'; 
+		
         include 'partials/_services.php';
     
         include 'partials/_gallery.php';
 
-        include 'partials/_pricing.php';
+		include 'partials/_pricing.php';
+		
+		include 'partials/_stats.php';
     
         include 'partials/_contact.php';
 

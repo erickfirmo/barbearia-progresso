@@ -1,0 +1,5 @@
+{
+    "require": {
+        "erickfirmo/router": "^1.0"
+    }
+}

@@ -1,7 +1,7 @@
 <?php
 
 // Requires composer autoloader
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 // Creating the router instance
 $router = new \ErickFirmo\Router;

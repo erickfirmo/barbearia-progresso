@@ -2,7 +2,9 @@
 
 namespace System\Controllers;
 
-class SiteController {
+use System\Controllers\Controller;
+
+class SiteController extends Controller {
     public function index() {
         include '../views/index.php';
     }

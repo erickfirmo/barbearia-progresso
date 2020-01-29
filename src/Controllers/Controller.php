@@ -4,6 +4,7 @@ namespace System\Controllers;
 
 class Controller {
     public function __construct() {
+        include '../src/functions.php';
 
     }
 

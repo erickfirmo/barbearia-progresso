@@ -34,5 +34,16 @@ class MailController extends Controller {
             $email_to = 'tests@erickfirmo.dev';
         }
 
+
+        $writeHTML = '';
+
+        $message_content  = '';
+        $message_content .= $writeHTML;
+        $message_content .= '';
+
+        $return = array();
+
+        $message = "";
+
     }
 }

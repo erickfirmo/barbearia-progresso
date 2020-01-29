@@ -34,8 +34,16 @@ class MailController extends Controller {
             $email_to = 'tests@erickfirmo.dev';
         }
 
+        foreach ($_POST as $k => $v) {
+                if($k == "email")
+                    $email_reply = $v;
+
+                if($k == "nome")
+                    $nome = $v;
+        }
+
         $writeHTML = '';
-        $message_content  = '';
+        $message_content = '';
         $message_content .= $writeHTML;
         $message_content .= '';
         $return = array();
@@ -53,6 +61,7 @@ class MailController extends Controller {
         $fromName = SMTP_NAME;
         $mail->SetFrom(SMTP_FROM, $fromName);
 
+        $nome = !empty($nome) ? $nome : 'Usuário';
 
     }
 }

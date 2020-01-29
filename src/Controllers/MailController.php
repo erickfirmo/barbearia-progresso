@@ -63,5 +63,44 @@ class MailController extends Controller {
 
         $nome = !empty($nome) ? $nome : 'Usuário';
 
+        if (isset($array->send_to))
+            $mail->AddAddress("{$array->send_to}", "$fromName");
+        else {
+            if (is_array($email_to)) {
+                foreach ($email_to as $emailt) $mail->AddAddress("$emailt", "$fromName");
+            } else {
+                $mail->AddAddress("$email_to", "$fromName");
+            }
+        }
+
+        $mail->addReplyTo("$email_reply", "$nome");
+        $mail->IsHTML(true);
+        $mail->CharSet = 'utf-8';
+        $mail->Subject  = "[".$tipo_form."] - Mensagem do Sr(a). ".$nome." ";
+        $mail->Body = "$message";
+
+        if (isset($_FILES) && array_key_exists("arquivo", $_FILES)) {
+            $file = (isset($_FILES["arquivo"])) ? $_FILES["arquivo"] : FALSE;
+            for ($x = 0; $x < count($_FILES['arquivo']['name']); $x++) {
+                if (empty($file['name'][$x])) {
+                    unset($file['name'][$x]);
+                    unset($file['tmp_name'][$x]);
+                } else {
+                    if (is_array($_FILES['arquivo']['name']))
+                        $mail->AddAttachment($file['tmp_name'][$x], $file['name'][$x]);
+                    else {
+                        $mail->AddAttachment($file['tmp_name'], $file['name']);
+                    }
+                }
+            }
+        }
+
+        if (isset($_POST['attach']) && !empty($_POST['attach'])) {
+            $attachs = json_decode(stripslashes($_POST['attach']));
+            foreach ($attachs as $file) {
+                $source_file = file_get_contents($file->url);
+                if ($source_file !== false && !empty($source_file)) $mail->addStringAttachment($source_file, $file->name);
+            }
+        }
     }
 }

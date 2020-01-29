@@ -13,7 +13,6 @@ class MailController extends Controller {
     ];
 
     public function __construct(){
-
         
     }
 
@@ -35,11 +34,10 @@ class MailController extends Controller {
         }
 
         foreach ($_POST as $k => $v) {
-                if($k == "email")
-                    $email_reply = $v;
-
-                if($k == "nome")
-                    $nome = $v;
+            if($k == "email")
+                $email_reply = $v;
+            if($k == "nome")
+                $nome = $v;
         }
 
         $writeHTML = '';
@@ -102,5 +100,21 @@ class MailController extends Controller {
                 if ($source_file !== false && !empty($source_file)) $mail->addStringAttachment($source_file, $file->name);
             }
         }
+   
+        $enviado = $mail->Send();
+        $mail->ClearAllRecipients();
+        $mail->ClearAttachments();
+
+        if ($enviado) {
+            unset($tipo_form);
+            $return['success'] = true;
+            $return['content'] = "$msg_sucesso_formulario";
+        } else {
+            $return['success'] = false;
+            $return['content'] = "Oops! Ocorreu um erro.";
+        }
+
+        if (SMTP_DEBUG) echo "Informações do erro: " . $mail->ErrorInfo;
+        else echo json_encode($return);
     }
 }

@@ -13,33 +13,18 @@ class SiteController extends Controller {
 
     public function agendar() {
 
+        $email_to = 'tests@erickfirmo.dev';
 
-        if(isset($_POST['form_send_to']) && !empty($_POST['form_send_to'])) {
-
-            $_POST['form_send_to'] = base64_decode($_POST['form_send_to']);
-
-            if(strpos($_POST['form_send_to'], ",") !== false)
-                $email_to = explode(",", $_POST['form_send_to']);
-            else if(strpos($_POST['form_send_to'], ";") !== false)
-                $email_to = explode(";", $_POST['form_send_to']);
-            else
-                $email_to = $_POST['form_send_to'];
-
-        } else {
-            $email_to = 'tests@erickfirmo.dev';
-        }
-
-        foreach ($_POST as $k => $v) {
-            if($k == "email")
-                $email_reply = $v;
-            if($k == "nome")
-                $nome = $v;
-        }
+        $name = isset($_POST['name']) ? $_POST['name'] : null;
+        $phone = isset($_POST['phone']) ? $_POST['phone'] : null;
+        $email_reply = isset($_POST['email']) ? $_POST['email'] : null;
+        $service = isset($_POST['service']) ? $_POST['service'] : null;
+        $message = isset($_POST['message']) ? $_POST['message'] : null;
 
         //data
         return (new MailController())->send([
-            'nome' => $nome,
-            'email' => $email_reply,
+            'email_replay' => $email_reply,
+            'email_to' => $email_to
         ]);
     }
 

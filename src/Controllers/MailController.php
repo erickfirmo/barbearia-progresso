@@ -37,7 +37,13 @@ class MailController extends Controller {
         $fromName = SMTP_NAME;
         $mail->SetFrom(SMTP_FROM, $fromName);
 
-        $nome = !empty($nome) ? $nome : 'Usuário';
+        $name = !empty($data['name']) ? $data['name'] : 'Usuário';
+        $phone = !empty($data['phone']) ? $data['phone'] : null;
+        $email_reply = !empty($data['email_reply']) ? $data['email_reply'] : null;
+        $service = !empty($data['service']) ? $data['service'] : null;
+        $message = !empty($data['message']) ? $data['message'] : null;
+        $email_to = !empty($data['email_to']) ? $data['email_to'] : null;
+
 
         if (isset($array->send_to))
             $mail->AddAddress("{$array->send_to}", "$fromName");
@@ -49,10 +55,10 @@ class MailController extends Controller {
             }
         }
 
-        $mail->addReplyTo("$email_reply", "$nome");
+        $mail->addReplyTo("$email_reply", "$name");
         $mail->IsHTML(true);
         $mail->CharSet = 'utf-8';
-        $mail->Subject  = "[".$tipo_form."] - Mensagem do Sr(a). ".$nome." ";
+        $mail->Subject  = "[".$tipo_form."] - Mensagem do Sr(a). ".$name." ";
         $mail->Body = "$message";
 
         if (isset($_FILES) && array_key_exists("arquivo", $_FILES)) {

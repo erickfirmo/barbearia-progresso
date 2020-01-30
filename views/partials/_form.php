@@ -1,6 +1,6 @@
 <div class="form-contact">
 
-	<form id="contactForm" action="php/contact.php" method="post" class="positioned">
+	<form id="contactForm" action="agendar" method="post" class="positioned">
 		<div class="row">
 			<div class="col-md-6">
 				<div class="row control-group">
@@ -28,15 +28,22 @@
 						<p class="help-block"></p>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-6">
 				<div class="row control-group">
 					<div class="form-group col-xs-12 controls">
-						<textarea rows="7" class="form-control" name="message" id="message" placeholder="Mensagem"></textarea>
+						<input class="form-control" type="email" name="senderEmail" id="senderEmail" placeholder="Email" required="required">
 						<p class="help-block"></p>
 					</div>
 				</div>
 			</div>
+			<div class="col-md-6">
+				<div class="row control-group">
+					<div class="form-group col-xs-12 controls">
+						<textarea rows="7" class="form-control" name="message" id="message" placeholder="Mensagem" style="height:275px;"></textarea>
+						<p class="help-block"></p>
+					</div>
+				</div>
+			</div>
+		
 		</div>
 		<div class="row">
 			<div class="form-group col-xs-12">

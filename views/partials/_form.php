@@ -47,6 +47,9 @@
 		</div>
 		<div class="row">
 			<div class="form-group col-xs-12">
+				<div class="g-recaptcha" data-sitekey=""></div>
+			</div>
+			<div class="form-group col-xs-12">
 				<button type="submit" class="button btn-full btn-lg">Solicitar Agendamento</button>
 			</div>
 		</div>

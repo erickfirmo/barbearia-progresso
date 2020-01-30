@@ -56,7 +56,7 @@
                 <nav class="navbar navbar-inverse one-menu-top-mob visible-xs hidden-sm hidden-md hidden-lg">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="./index.html" class="navbar-brand"><img class="img-responsive" src="assets/images/home-page/main-page-logo.png" alt=""></a>
+                            <a href="/" class="navbar-brand"><img class="img-responsive" src="assets/images/home-page/main-page-logo.png" alt=""></a>
                             <br>
                             <button type="button" class="mob-menu-trigger navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                                 <span>Menu</span>

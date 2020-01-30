@@ -8,15 +8,7 @@ use PHPMailer\PHPMailer\Exception;
 
 class MailController extends Controller {
 
-    public $required_fields = [
-
-    ];
-
-    public function __construct(){
-        
-    }
-
-    public function send(array $data) {
+    static public function send(array $data) {
 
         $writeHTML = '';
         $message_content = '';

@@ -54,12 +54,19 @@
 		include 'partials/_pricing.php';
 		
 		//include 'partials/_stats.php';
-    
-        include 'partials/_contact.php';
 
-        include 'partials/_footer.php'; 
+		include 'partials/_contact.php';
+	?>
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.243718293199!2d-46.447388684884935!3d-23.523735066089227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66ac69ad6321%3A0x65a29988978314e5!2sR.%20Santo%20Cristo%2C%207%20-%20Jardim%20Norma%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008240-410!5e0!3m2!1spt-BR!2sbr!4v1580405058822!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;width:100%;height:400px;" allowfullscreen=""></iframe>
+
+	<?php
+
+		include 'partials/_footer.php'; 
 
     ?>
+
+
 </div>
 <!-- Javascript -->
 <script src="assets/js/jquery.min.js"></script>

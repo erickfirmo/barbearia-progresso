@@ -6,5 +6,5 @@ $router->setNamespace('System\Controllers\\');
 // Defining routes
 $router->get(['/', 'SiteController@index']);
 
-$router->post(['/sendmail', 'MailController@send']);
+$router->post(['/agendar', 'SiteController@agendar']);
   

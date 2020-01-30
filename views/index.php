@@ -39,7 +39,7 @@
 	<script src="assets/js/modernizr.custom.97074.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
 
-	<!-- Google reCaptcha API ->
+	<!-- Google reCaptcha API -->
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
@@ -98,6 +98,13 @@
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="assets/js/gmap.js"></script>
 
+<!-- Google reCaptcha site_key -->
+<script>
+	recaptcha_site_key = '<site_key>';
+	for (var i = 0; i < $('.g-recaptcha').length; i++) {
+		$('.g-recaptcha').eq(i).attr('data-sitekey', recaptcha_site_key);
+	}
+</script>
 
 </body>
 </html>

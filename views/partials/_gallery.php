@@ -80,8 +80,8 @@
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				<div class="space30"></div>
-				<a href="./blog.html" class="main-btn">Mais</a>
+				<!-- <div class="space30"></div>
+				<a href="./blog.html" class="main-btn">Mais</a> -->
 			</div>
 		</div>
 	</section>

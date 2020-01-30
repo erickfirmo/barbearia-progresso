@@ -11,3 +11,7 @@ i.fa.contato {
     right: 55px;
     position: relative;
 }
+
+.contact {
+    padding-bottom: 100px !important;
+}

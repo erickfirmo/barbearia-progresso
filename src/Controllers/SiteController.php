@@ -14,18 +14,26 @@ class SiteController extends Controller {
     public function agendar() {
 
         $email_to = 'tests@erickfirmo.dev';
-
         $name = isset($_POST['name']) ? $_POST['name'] : null;
         $phone = isset($_POST['phone']) ? $_POST['phone'] : null;
         $email_reply = isset($_POST['email']) ? $_POST['email'] : null;
         $service = isset($_POST['service']) ? $_POST['service'] : null;
         $message = isset($_POST['message']) ? $_POST['message'] : null;
 
-        //data
-        return (new MailController())->send([
-            'email_replay' => $email_reply,
-            'email_to' => $email_to
-        ]);
+        $recaptcha_response = $_POST['g-recaptcha-response'];
+        $recaptcha_secret_key = '<secret_key>';
+
+        if(isset($recaptcha_response) && !empty($recaptcha_response)){
+            $answer = json_decode(file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response='.$recaptcha_response));
+            if($answer->success) {
+                //return json
+                return (new MailController())->send([
+                    'email_replay' => $email_reply,
+                    'email_to' => $email_to
+                ]);
+            }
+        }
+
     }
 
 }

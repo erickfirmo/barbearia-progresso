@@ -5,13 +5,13 @@
 			<div class="col-md-6">
 				<div class="row control-group">
 					<div class="form-group col-xs-12 controls">
-						<input class="form-control" name="senderName" id="senderName" type="text" placeholder="Nome" required="required">                       
+						<input class="form-control" name="name" id="senderName" type="text" placeholder="Nome" required="required">                       
 						<p class="help-block"></p>
 					</div>
 				</div>
 				<div class="row control-group">
 					<div class="form-group col-xs-12 controls">
-						<select class="form-control custom-select" name="senderService" id="senderService" placeholder="Serviço" required="required">
+						<select class="form-control custom-select" name="service" id="senderService" placeholder="Serviço" required="required">
 							<option value="Corte Masculino">Corte Masculino</option>
 							<option value="Barba">Barba</option>
 							<option value="Luzes">Luzes</option>
@@ -24,13 +24,13 @@
 				</div>
 				<div class="row control-group">
 					<div class="form-group col-xs-12  controls">
-						<input class="form-control" placeholder="Telefone ou Celular" name="senderPhone" id="senderPhone" type="text">
+						<input class="form-control" placeholder="Telefone ou Celular" name="phone" id="senderPhone" type="text">
 						<p class="help-block"></p>
 					</div>
 				</div>
 				<div class="row control-group">
 					<div class="form-group col-xs-12 controls">
-						<input class="form-control" type="email" name="senderEmail" id="senderEmail" placeholder="Email" required="required">
+						<input class="form-control" type="email" name="email" id="senderEmail" placeholder="Email" required="required">
 						<p class="help-block"></p>
 					</div>
 				</div>

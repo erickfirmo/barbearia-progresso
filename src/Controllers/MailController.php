@@ -90,7 +90,9 @@ class MailController extends Controller {
             $return['content'] = "Oops! Ocorreu um erro.";
         }
 
-        if (SMTP_DEBUG) echo "Informações do erro: " . $mail->ErrorInfo;
-        else echo json_encode($return);
+        if (SMTP_DEBUG)
+            echo "Informações do erro: " . $mail->ErrorInfo;
+        else
+            return $return;
     }
 }

@@ -27,7 +27,7 @@ class SiteController extends Controller {
             $answer = json_decode(file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response='.$recaptcha_response));
             if($answer->success) {
                 //return json
-                return (new MailController())->send([
+                return MailController::send([
                     'email_replay' => $email_reply,
                     'email_to' => $email_to
                 ]);

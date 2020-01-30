@@ -28,7 +28,7 @@
 							<p><strong><i class="fa fa-whatsapp"></i> Whatsapp:</strong> <span>+55 11 95979-8683</span></p><br>
 						</li>
 						<li>
-							<p><strong><i class="fa fa-envelope"></i> Email:</strong> <span><a href="#">barbearia.progresso2020@gmail.com</a></span></p>
+							<p><strong><i class="fa fa-envelope"></i> Email:</strong> <span><a href="mailto:barbearia.progresso2020@gmail.com">barbearia.progresso2020@gmail.com</a></span></p>
 						</li>
 					</ul>
 				</div>

@@ -82,13 +82,13 @@
         <div class="flexslider">
             <ul class="slides">
                 <li>
-                    <img src="assets/images/slider/1/1.jpg" alt=""/>
+                    <img src="assets/images/cortes/5.jpg" alt="Corte de Cabelo Masculino"/>
                 </li>
                 <li>
-                    <img src="assets/images/slider/1/2.jpg" alt=""/>
+                    <img src="assets/images/cortes/2.jpg" alt="Corte de Cabelo Masculino"/>
                 </li>
                 <li>
-                    <img src="assets/images/slider/1/3.jpg" alt=""/>
+                    <img src="assets/images/cortes/3.jpg" alt="Corte de Cabelo Masculino"/>
                 </li>
             </ul>
         </div>

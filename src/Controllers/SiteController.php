@@ -26,12 +26,14 @@ class SiteController extends Controller {
         if(isset($recaptcha_response) && !empty($recaptcha_response)){
             $answer = json_decode(file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response='.$recaptcha_response));
             if($answer->success) {
-                //return json
-                $_SESSION['sendmail_response'] = MailController::send([
+
+                $response = MailController::send([
                     'email_replay' => $email_reply,
                     'email_to' => $email_to
                 ]);
 
+                $_SESSION['sendmail_response'] = $response;
+                //return json
                 return redirect('/');
             }
         }

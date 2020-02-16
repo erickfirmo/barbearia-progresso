@@ -29,4 +29,6 @@ select.custom-select:focus {
     border: 2px #333 solid;
 }
  
-    
+.flexslider .slides img {
+    margin: auto;
+}

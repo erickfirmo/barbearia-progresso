@@ -26,7 +26,7 @@
 						<div class="folio-thumb">
 							<a href="assets/images/cortes/gallery/1.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="assets/images/cortes/gallery/1.jpg" class="img-responsive" alt=""/>
+								<img src="assets/images/cortes/gallery/1.jpg" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
 							<div class="folio-border">
 								<div class="folio-detail">
@@ -40,7 +40,7 @@
 						<div class="folio-thumb">
 							<a href="assets/images/cortes/gallery/2.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="assets/images/cortes/gallery/2.jpg" class="img-responsive" alt=""/>
+								<img src="assets/images/cortes/gallery/2.jpg" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
 							<div class="folio-border">
 								<div class="folio-detail">
@@ -54,7 +54,7 @@
 						<div class="folio-thumb">
 							<a href="assets/images/cortes/gallery/3.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="assets/images/cortes/gallery/3.jpg" class="img-responsive" alt=""/>
+								<img src="assets/images/cortes/gallery/3.jpg" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
 							<div class="folio-border">
 								<div class="folio-detail">
@@ -68,7 +68,7 @@
 						<div class="folio-thumb">
 							<a href="assets/images/cortes/gallery/4.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="assets/images/cortes/gallery/4.jpg" class="img-responsive" alt=""/>
+								<img src="assets/images/cortes/gallery/4.jpg" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
 							<<div class="folio-border">
 								<div class="folio-detail">

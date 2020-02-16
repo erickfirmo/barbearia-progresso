@@ -16,7 +16,6 @@ i.fa.contato {
     padding-bottom: 100px !important;
 }
 
-
 select.custom-select {
     border-color: #333;
     background: #111;
@@ -32,4 +31,8 @@ select.custom-select:focus {
 .flexslider .slides img {
     margin: auto;
     opacity: .4;
+}
+
+.sticky-wrapper.is-sticky .navbar-inverse {
+    background-color: rgba(0, 0, 0, .4);
 }

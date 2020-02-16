@@ -24,9 +24,9 @@
 				<div class="portfolio-gal isotope">
 					<div class="folio-item headshaves col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="gallery/corte1.jpg" class="pop_lbox">
+							<a href="assets/images/cortes/gallery/1.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="gallery/corte1.jpg" class="img-responsive" alt=""/>
+								<img src="assets/images/cortes/gallery/1.jpg" class="img-responsive" alt=""/>
 							</a>
 							<div class="folio-border">
 								<div class="folio-detail">
@@ -38,9 +38,9 @@
 					</div>
 					<div class="folio-item restyle col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="gallery/corte2.jpg" class="pop_lbox">
+							<a href="assets/images/cortes/gallery/2.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="gallery/corte2.jpg" class="img-responsive" alt=""/>
+								<img src="assets/images/cortes/gallery/2.jpg" class="img-responsive" alt=""/>
 							</a>
 							<!-- <div class="folio-border">
 								<div class="folio-detail">
@@ -52,7 +52,7 @@
 					</div>
 					<div class="folio-item manicure col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="gallery/corte3.jpg" class="pop_lbox">
+							<a href="assets/images/cortes/gallery/3.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
 								<img src="gallery/corte3.jpg" class="img-responsive" alt=""/>
 							</a>
@@ -66,7 +66,7 @@
 					</div>
 					<div class="folio-item stubble col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="gallery/corte4.jpg" class="pop_lbox">
+							<a href="assets/images/cortes/gallery/4.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
 								<img src="gallery/corte4.jpg" class="img-responsive" alt=""/>
 							</a>

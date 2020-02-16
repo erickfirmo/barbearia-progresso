@@ -13,16 +13,16 @@
 			<div class="col-md-12 main-navigation">
 				<ul id="filters" class="clearfix portfolio-gal-filter" data-option-key="filter">
 					<li><a href="#filter" class="active" data-option-value="*">Todos</a></li>
-					<li><a href="#filter" data-option-value=".headshaves">Corte</a></li>
-					<li><a href="#filter" data-option-value=".restyle">Barba</a></li>
-					<li><a href="#filter" data-option-value=".manicure">Luzes</a></li>
-					<li><a href="#filter" data-option-value=".stubble">Relaxamento</a></li>
-					<li><a href="#filter" data-option-value=".stubble">Sobrancelhas</a></li>
+					<li><a href="#filter" data-option-value=".corte">Cortes</a></li>
+					<li><a href="#filter" data-option-value=".barba">Barba</a></li>
+					<li><a href="#filter" data-option-value=".luzes">Luzes</a></li>
+					<li><a href="#filter" data-option-value=".relaxamento">Relaxamento</a></li>
+					<li><a href="#filter" data-option-value=".sobrancelhas">Sobrancelhas</a></li>
 				</ul>
 			</div>
 			<div class="col-md-12">
-				<div class="portfolio-gal isotope">
-					<div class="folio-item headshaves col-sm-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="portfolio-gal corte">
+					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
 							<a href="assets/images/cortes/gallery/1.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
@@ -36,52 +36,52 @@
 							</div>
 						</div>
 					</div>
-					<div class="folio-item restyle col-sm-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
 							<a href="assets/images/cortes/gallery/2.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
 								<img src="assets/images/cortes/gallery/2.jpg" class="img-responsive" alt=""/>
 							</a>
-							<!-- <div class="folio-border">
+							<div class="folio-border">
 								<div class="folio-detail">
 									<h5>OUR Best restle</h5>
 									<h6>design and idea</h6>
 								</div>
-							</div> -->
+							</div>
 						</div>
 					</div>
-					<div class="folio-item manicure col-sm-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
 							<a href="assets/images/cortes/gallery/3.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="gallery/corte3.jpg" class="img-responsive" alt=""/>
+								<img src="assets/images/cortes/gallery/3.jpg" class="img-responsive" alt=""/>
 							</a>
-							<!-- <div class="folio-border">
+							<div class="folio-border">
 								<div class="folio-detail">
 									<h5>OUR Best manicure</h5>
 									<h6>design and idea</h6>
 								</div>
-							</div> -->
+							</div>
 						</div>
 					</div>
-					<div class="folio-item stubble col-sm-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
 							<a href="assets/images/cortes/gallery/4.jpg" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="gallery/corte4.jpg" class="img-responsive" alt=""/>
+								<img src="assets/images/cortes/gallery/4.jpg" class="img-responsive" alt=""/>
 							</a>
-							<!-- <div class="folio-border">
+							<<div class="folio-border">
 								<div class="folio-detail">
 									<h5>OUR Best stubble</h5>
 									<h6>design and idea</h6>
 								</div>
-							</div> -->
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				<!-- <div class="space30"></div>
-				<a href="./blog.html" class="main-btn">Mais</a> -->
+				<div class="space30"></div>
+				<a href="#" class="main-btn">Ver no Instagram</a>
 			</div>
 		</div>
 	</section>

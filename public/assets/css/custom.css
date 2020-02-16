@@ -31,4 +31,5 @@ select.custom-select:focus {
  
 .flexslider .slides img {
     margin: auto;
+    opacity: .4;
 }

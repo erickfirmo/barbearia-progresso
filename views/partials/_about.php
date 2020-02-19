@@ -6,7 +6,7 @@
             <h1>Sobre</h1>
             <span class="sub-title">Um pouco sobre nós</span>
             <div class="mustache">
-                <span><img class="img-responsive" src="assets/images/home-page/mustache.png" alt=""></span>
+                <span><img class="img-responsive" src="<?php asset('images/home-page/mustache.png'); ?>" alt=""></span>
             </div>
         </div>
 

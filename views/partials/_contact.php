@@ -6,7 +6,7 @@
 				<h1>Contato</h1>
 				<span class="sub-title">localização do salão</span>
 				<div class="mustache">
-					<span><img class="img-responsive" src="assets/images/home-page/mustache.png" alt=""></span>
+					<span><img class="img-responsive" src="<?php asset('mages/home-page/mustache.png'); ?>" alt=""></span>
 				</div>
 			</div>
 		</div>
@@ -28,7 +28,7 @@
 							<p><strong><i class="fa fa-whatsapp"></i> Whatsapp:</strong> <span>+55 11 95979-8683</span></p><br>
 						</li>
 						<li>
-							<p><strong><i class="fa fa-envelope"></i> Email:</strong> <span><a href="mailto:barbearia.progresso2020@gmail.com">barbearia.progresso2020@gmail.com</a></span></p>
+							<p><strong><i class="fa fa-envelope"></i> Email:</strong> <span><a style="position: relative; right: 30px;" href="mailto:barbearia.progresso2020@gmail.com">barbearia.progresso2020@gmail.com</a></span></p>
 						</li>
 					</ul>
 				</div>

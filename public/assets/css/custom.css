@@ -4,6 +4,10 @@ h1, h2, h3, h4, h6, p, span, a {
     font-family: 'Special Elite', cursive !important;
 }*/
 
+body {
+    background: #333;
+}
+
 i.fa.contato {
     color: #b59e5c;
     font-size: 26px;
@@ -29,8 +33,15 @@ select.custom-select:focus {
 }
  
 .flexslider .slides img {
-    margin: auto;
     opacity: .4;
+}
+
+@media(max-width: 767px) {
+    .flexslider .slides img {
+        margin: auto;
+        opacity: .4;
+        height: 100vh;
+    }
 }
 
 .sticky-wrapper.is-sticky .navbar-inverse {

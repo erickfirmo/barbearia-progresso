@@ -5,7 +5,7 @@
 				<h1>Galeria</h1>
 				<span class="sub-title">nossos trabalhos</span>
 				<div class="mustache">
-					<span><img class="img-responsive" src="assets/images/home-page/mustache.png" alt=""></span>
+					<span><img class="img-responsive" src="<?php asset('/images/home-page/mustache.png'); ?>" alt=""></span>
 				</div>
 			</div>
 		</div>
@@ -24,9 +24,9 @@
 				<div class="portfolio-gal corte">
 					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="assets/images/cortes/gallery/1.jpg" class="pop_lbox">
+							<a href="<?php asset('images/cortes/gallery/1.jpg'); ?>" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="assets/images/cortes/gallery/1.jpg" class="img-responsive" alt="Corte de Cabelo Masculino"/>
+								<img src="<?php asset('images/cortes/gallery/1.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
 							<div class="folio-border">
 								<div class="folio-detail">
@@ -38,9 +38,9 @@
 					</div>
 					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="assets/images/cortes/gallery/2.jpg" class="pop_lbox">
+							<a href="<?php asset('images/cortes/gallery/2.jpg'); ?>" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="assets/images/cortes/gallery/2.jpg" class="img-responsive" alt="Corte de Cabelo Masculino"/>
+								<img src="<?php asset('images/cortes/gallery/2.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
 							<div class="folio-border">
 								<div class="folio-detail">
@@ -52,9 +52,9 @@
 					</div>
 					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="assets/images/cortes/gallery/3.jpg" class="pop_lbox">
+							<a href="<?php asset('images/cortes/gallery/3.jpg'); ?>" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="assets/images/cortes/gallery/3.jpg" class="img-responsive" alt="Corte de Cabelo Masculino"/>
+								<img src="<?php asset('images/cortes/gallery/3.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
 							<div class="folio-border">
 								<div class="folio-detail">
@@ -66,9 +66,9 @@
 					</div>
 					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="assets/images/cortes/gallery/4.jpg" class="pop_lbox">
+							<a href="<?php asset('images/cortes/gallery/4.jpg'); ?>" class="pop_lbox">
 								<div class="overlay-bg"></div>
-								<img src="assets/images/cortes/gallery/4.jpg" class="img-responsive" alt="Corte de Cabelo Masculino"/>
+								<img src="<?php asset('images/cortes/gallery/4.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
 							<<div class="folio-border">
 								<div class="folio-detail">

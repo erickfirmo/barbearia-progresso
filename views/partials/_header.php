@@ -17,7 +17,7 @@
                             </div>
 
                             <div class="col-md-2">
-                                <a href="./index.html" class="navbar-brand"><img class="img-responsive" src="assets/images/home-page/main-page-logo.png" alt=""></a>
+                                <a href="#" class="navbar-brand"><img class="img-responsive" src="<?php asset('images/home-page/main-page-logo.png'); ?>" alt=""></a>
                             </div>
 
                             <div class="col-md-5">
@@ -38,7 +38,7 @@
                     <div class="container-fluid">
                         <div class="navbar-collapse collapse" id="navbar2">
                             <div class="col-md-12">
-                                <a href="./index.html" class="navbar-brand"><img class="img-responsive" src="assets/images/home-page/main-page-logo.png" alt=""></a>
+                                <a href="#" class="navbar-brand"><img class="img-responsive" src="<?php asset('images/home-page/main-page-logo.png'); ?>" alt=""></a>
 
                                 <ul class="nav navbar-nav">
                                     <!-- <li class="page-scroll"><a href="#about">About</a></li> -->
@@ -56,7 +56,7 @@
                 <nav class="navbar navbar-inverse one-menu-top-mob visible-xs hidden-sm hidden-md hidden-lg">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="/" class="navbar-brand"><img class="img-responsive" src="assets/images/home-page/main-page-logo.png" alt=""></a>
+                            <a href="/" class="navbar-brand"><img class="img-responsive" src="<?php asset('images/home-page/main-page-logo.png'); ?>" alt=""></a>
                             <br>
                             <button type="button" class="mob-menu-trigger navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                                 <span>Menu</span>
@@ -82,13 +82,13 @@
         <div class="flexslider">
             <ul class="slides">
                 <li>
-                    <img src="assets/images/cortes/5.jpg" alt="Corte de Cabelo Masculino"/>
+                    <img src="<?php asset('images/cortes/5.jpg'); ?>" alt="Corte de Cabelo Masculino"/>
                 </li>
                 <li>
-                    <img src="assets/images/cortes/2.jpg" alt="Corte de Cabelo Masculino"/>
+                    <img src="<?php asset('images/cortes/2.jpg'); ?>" alt="Corte de Cabelo Masculino"/>
                 </li>
                 <li>
-                    <img src="assets/images/cortes/3.jpg" alt="Corte de Cabelo Masculino"/>
+                    <img src="<?php asset('images/cortes/3.jpg'); ?>" alt="Corte de Cabelo Masculino"/>
                 </li>
             </ul>
         </div>

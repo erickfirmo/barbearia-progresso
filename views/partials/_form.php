@@ -50,7 +50,7 @@
 				<div class="g-recaptcha" data-sitekey=""></div>
 			</div>
 			<div class="form-group col-xs-12">
-				<button type="submit" class="button btn-full btn-lg" style="font-size: 18px;"><i class="fa fa-cut" style="font-size: 20px; padding-right: 30px;"></i> Solicitar Agendamento</button>
+				<button type="submit" class="button btn-full btn-lg" style="font-size: 18px;"><i class="fa fa-cut" style="font-size: 20px; padding-right: 10px;"></i> Solicitar Agendamento</button>
 			</div>
 		</div>
 	</form>

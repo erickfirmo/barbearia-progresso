@@ -12,6 +12,7 @@
 				<div class="row control-group">
 					<div class="form-group col-xs-12 controls">
 						<select class="form-control custom-select" name="service" id="senderService" placeholder="Serviço" required="required">
+							<option selected>--</option>
 							<option value="Corte Masculino">Corte Masculino</option>
 							<option value="Barba">Barba</option>
 							<option value="Luzes">Luzes</option>

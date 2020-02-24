@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="h-page-title">
 				<h1>Galeria</h1>
-				<span class="sub-title">nossos trabalhos</span>
+				<span class="sub-title">nosso trabalho</span>
 				<div class="mustache">
 					<span><img class="img-responsive" src="<?php asset('/images/home-page/mustache.png'); ?>" alt=""></span>
 				</div>

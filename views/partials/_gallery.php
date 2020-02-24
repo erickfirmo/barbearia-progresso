@@ -28,12 +28,6 @@
 								<div class="overlay-bg"></div>
 								<img src="<?php asset('images/cortes/gallery/1.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
-							<div class="folio-border">
-								<div class="folio-detail">
-									<h5>Corte Masculino</h5>
-									<h6>design and idea</h6>
-								</div>
-							</div>
 						</div>
 					</div>
 					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
@@ -42,12 +36,6 @@
 								<div class="overlay-bg"></div>
 								<img src="<?php asset('images/cortes/gallery/2.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
-							<div class="folio-border">
-								<div class="folio-detail">
-									<h5>OUR Best restle</h5>
-									<h6>design and idea</h6>
-								</div>
-							</div>
 						</div>
 					</div>
 					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
@@ -56,12 +44,6 @@
 								<div class="overlay-bg"></div>
 								<img src="<?php asset('images/cortes/gallery/3.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
-							<div class="folio-border">
-								<div class="folio-detail">
-									<h5>OUR Best manicure</h5>
-									<h6>design and idea</h6>
-								</div>
-							</div>
 						</div>
 					</div>
 					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
@@ -70,12 +52,6 @@
 								<div class="overlay-bg"></div>
 								<img src="<?php asset('images/cortes/gallery/4.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
-							<div class="folio-border">
-								<div class="folio-detail">
-									<h5>OUR Best stubble</h5>
-									<h6>design and idea</h6>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>

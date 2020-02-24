@@ -16,7 +16,7 @@
                             <div class="inner-price">
                                 <h3>Corte Masculino</h3>
                                 <h1><span>R$</span>20<span>,00</span></h1>
-                                <button class="main-btn" type="submit">Agendar</button>
+                                <button class="main-btn" type="submit" data-service-type="Corte Masculino">Agendar</button>
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
                             <div class="inner-price">
                                 <h3>Barba</h3>
                                 <h1><span>R$</span>15<span>,00</span></h1>
-                                <button class="main-btn" type="submit">Agendar</button>
+                                <button class="main-btn" type="submit" data-service-type="Barba">Agendar</button>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
                             <div class="inner-price">
                                 <h3>Luzes</h3>
                                 <h1><span>R$</span>25<span>,00</span></h1>
-                                <button class="main-btn" type="submit">Agendar</button>
+                                <button class="main-btn" type="submit" data-service-type="Luzes">Agendar</button>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                             <div class="inner-price">
                                 <h3>Relaxamento</h3>
                                 <h1><span>R$</span>20<span>,00</span></h1>
-                                <button class="main-btn" type="submit">Agendar</button>
+                                <button class="main-btn" type="submit" data-service-type="Relaxamento">Agendar</button>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                             <div class="inner-price">
                                 <h3>Sobrancelhas</h3>
                                 <h1><span>R$</span>10<span>,00</span></h1>
-                                <button class="main-btn" type="submit">Agendar</button>
+                                <button class="main-btn" type="submit" data-service-type="Sobrancelhas">Agendar</button>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                             <div class="inner-price">
                                 <h3>Hidratação</h3>
                                 <h1><span>R$</span>15<span>,00</span></h1>
-                                <button class="main-btn" type="submit">Agendar</button>
+                                <button class="main-btn" type="submit" data-service-type="Hidratação">Agendar</button>
                             </div>
                         </div>
                     </div>

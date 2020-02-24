@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="h-page-title">
 				<h1>Contato</h1>
-				<span class="sub-title">localização do salão</span>
+				<span class="sub-title">solicite um orçamento</span>
 				<div class="mustache">
 					<span><img class="img-responsive" src="<?php asset('mages/home-page/mustache.png'); ?>" alt=""></span>
 				</div>

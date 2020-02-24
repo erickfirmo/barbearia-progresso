@@ -70,7 +70,7 @@
 								<div class="overlay-bg"></div>
 								<img src="<?php asset('images/cortes/gallery/4.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 							</a>
-							<<div class="folio-border">
+							<div class="folio-border">
 								<div class="folio-detail">
 									<h5>OUR Best stubble</h5>
 									<h6>design and idea</h6>

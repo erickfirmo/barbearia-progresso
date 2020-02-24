@@ -16,7 +16,6 @@
                             <div class="inner-price">
                                 <h3>Corte Masculino</h3>
                                 <h1><span>R$</span>20<span>,00</span></h1>
-                                <p>Vivamus dignissim interdum ex quis tincidunt. Sed vitae felis tellus. Mauris tristique nisl ut quam</p>
                                 <button class="main-btn" type="submit">Agendar</button>
                             </div>
                         </div>
@@ -25,8 +24,7 @@
                         <div class="price-block">
                             <div class="inner-price">
                                 <h3>Barba</h3>
-                                <h1><span>R$</span>20<span>,00</span></h1>
-                                <p>Aenean eu nisl ut neque commodo volutpat at eu magna. Nulla at bibendum eros.</p>
+                                <h1><span>R$</span>15<span>,00</span></h1>
                                 <button class="main-btn" type="submit">Agendar</button>
                             </div>
                         </div>
@@ -35,8 +33,7 @@
                         <div class="price-block">
                             <div class="inner-price">
                                 <h3>Luzes</h3>
-                                <h1><span>R$</span>20<span>,00</span></h1>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                <h1><span>R$</span>25<span>,00</span></h1>
                                 <button class="main-btn" type="submit">Agendar</button>
                             </div>
                         </div>
@@ -51,7 +48,6 @@
                             <div class="inner-price">
                                 <h3>Relaxamento</h3>
                                 <h1><span>R$</span>20<span>,00</span></h1>
-                                <p>Nullam condimentum sodales tellus. Sed convallis magna nec tincidunt malesuada.</p>
                                 <button class="main-btn" type="submit">Agendar</button>
                             </div>
                         </div>
@@ -60,8 +56,7 @@
                         <div class="price-block">
                             <div class="inner-price">
                                 <h3>Sobrancelhas</h3>
-                                <h1><span>R$</span>20<span>,00</span></h1>
-                                <p>Integer ultricies magna ac elementum condimentum. Aliquam molestie rhoncus</p>
+                                <h1><span>R$</span>10<span>,00</span></h1>
                                 <button class="main-btn" type="submit">Agendar</button>
                             </div>
                         </div>
@@ -69,9 +64,8 @@
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <div class="price-block">
                             <div class="inner-price">
-                                <h3>Lorem ipsum</h3>
-                                <h1><span>R$</span>20<span>,00</span></h1>
-                                <p>Mauris tristique nisl ut quam faucibus, ac volutpat urna dictum. Vestibulum tincidunt</p>
+                                <h3>Hidratação</h3>
+                                <h1><span>R$</span>15<span>,00</span></h1>
                                 <button class="main-btn" type="submit">Agendar</button>
                             </div>
                         </div>

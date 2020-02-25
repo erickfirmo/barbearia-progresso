@@ -23,9 +23,9 @@ class SiteController extends Controller {
         $recaptcha_response = $_POST['g-recaptcha-response'];
         $recaptcha_secret_key = '<secret_key>';
 
-        if(isset($recaptcha_response) && !empty($recaptcha_response)){
-            $answer = json_decode(file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response='.$recaptcha_response));
-            if($answer->success) {
+        //if(isset($recaptcha_response) && !empty($recaptcha_response)){
+            //$answer = json_decode(file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response='.$recaptcha_response));
+            //if($answer->success) {
 
                 $response = MailController::send([
                     'email_replay' => $email_reply,
@@ -35,8 +35,8 @@ class SiteController extends Controller {
                 $_SESSION['sendmail_response'] = $response;
                 //return json
                 return redirect('/');
-            }
-        }
+            //}
+        //}
 
     }
 

@@ -103,15 +103,15 @@
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="<?php asset('js/gmap.js'); ?>"></script>
 
-<!-- Google reCaptcha site_key -->
+
 <script>
+
+    /* Google reCaptcha site_key --> */
 	var recaptcha_site_key = '<site_key>';
 	for (var i = 0; i < $('.g-recaptcha').length; i++) {
 		$('.g-recaptcha').eq(i).attr('data-sitekey', recaptcha_site_key);
 	}
-</script>
 
-<script>
 	$('.inner-price button.main-btn').on('click', function() {
 		$('#senderService option[value="'+$(this).attr('data-service-type')+'"]').prop('selected', true);
 			$('html, body').animate({

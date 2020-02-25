@@ -33,7 +33,7 @@
 
 
 	<!-- JS Font Script -->
-	<script src="http://use.edgefonts.net/bebas-neue.js"></script>
+	<script src="https://use.edgefonts.net/bebas-neue.js"></script>
 
 	<!-- Modernizer -->
 	<script src="<?php asset('js/modernizr.custom.97074.js'); ?>"></script>
@@ -94,7 +94,7 @@
 <script src="<?php asset('js/jquery.bpopup.js'); ?>"></script>
 <script src="<?php asset('js/pikaday/pikaday.js'); ?>"></script>
 <script src="<?php asset('js/classie.js'); ?>"></script>
-<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script src="<?php asset('js/rs-plugin/js/jquery.themepunch.tools.min.js'); ?>"></script>   
 <script src="<?php asset('js/rs-plugin/js/jquery.themepunch.revolution.min.js'); ?>"></script>
 <script src="<?php asset('js/jquery.prettyphoto.js'); ?>"></script>

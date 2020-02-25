@@ -113,10 +113,11 @@
 
 <script>
 	$('.inner-price button.main-btn').on('click', function() {
-
 		$('#senderService option[value="'+$(this).attr('data-service-type')+'"]').prop('selected', true);
+			$('html, body').animate({
+				scrollTop: $("#contact").offset().top
+			}, 1500);
 	});
-
 </script>
 
 </body>

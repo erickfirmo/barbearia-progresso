@@ -29,7 +29,7 @@ if (!function_exists('redirect'))
 
 if (!function_exists('asset'))
 {
-    function asset($path, $root = '') 
+    function asset($path, $root = '/projetos/barbearia-progresso/public/') 
     {
         echo $root.'assets/'.$path;
     }

@@ -112,8 +112,8 @@
 		$('.g-recaptcha').eq(i).attr('data-sitekey', recaptcha_site_key);
 	}
 
-	$('.inner-price button.main-btn').on('click', function() {
-		$('#senderService option[value="'+$(this).attr('data-service-type')+'"]').prop('selected', true);
+	$('.inner-price').on('click', function() {
+		$('#senderService option[value="'+$(this).find('button').attr('data-service-type')+'"]').prop('selected', true);
 			$('html, body').animate({
 				scrollTop: $("#contact").offset().top
 			}, 1500);

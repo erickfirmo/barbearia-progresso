@@ -6,7 +6,7 @@
 				<h1>Contato</h1>
 				<span class="sub-title">solicite um orçamento</span>
 				<div class="mustache">
-					<span><img class="img-responsive" src="<?php asset('mages/home-page/mustache.png'); ?>" alt=""></span>
+					<span><img class="img-responsive" src="<?php asset('images/home-page/mustache.png'); ?>" alt=""></span>
 				</div>
 			</div>
 		</div>

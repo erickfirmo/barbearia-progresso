@@ -12,6 +12,13 @@ function scrollTopAnimate(selector, time) {
     });
 }
 
+function statusMessage(status, parent_selector, json_file)
+{
+    $.getJSON(json_file, function(messages) {
+        $(parent_selector).html(messages.status);
+    });
+}
+
 /* scroll to form on click in price box */
 $('.inner-price').on('click', function() {
     $('#senderService option[value="'+$(this).find('button').attr('data-service-type')+'"]').prop('selected', true);

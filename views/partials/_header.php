@@ -6,7 +6,7 @@
                 <nav class="navbar navbar-inverse one-menu-top hidden-xs hidden-sm">
                     <div class="container-fluid">
                         <div class="navbar-collapse collapse" id="navbar">
-                            <div class="col-md-5">
+                            <div class="col-md-4">
                                 <div class="pull-right onemenu-right">
                                 <ul class="nav navbar-nav">
                                     <!-- <li class="page-scroll"><a href="#about">About</a></li> -->
@@ -16,11 +16,11 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-2">
-                                <a href="#" class="navbar-brand"><img class="img-responsive" src="<?php asset('images/home-page/main-page-logo.png'); ?>" alt=""></a>
+                            <div class="col-md-4">
+                                <a href="#" class="navbar-brand"><img class="img-responsive main-logo" src="<?php asset('images/home-page/main-page-logo.png'); ?>" alt=""></a>
                             </div>
 
-                            <div class="col-md-5">
+                            <div class="col-md-4">
                                 <div class="pull-left onemenu-left">
                                 <ul class="nav navbar-nav">
                                     <li class="page-scroll"><a href="#pricing">Preço</a></li>

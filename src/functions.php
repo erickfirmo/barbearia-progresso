@@ -35,7 +35,7 @@ if (!function_exists('redirect'))
 {
 	function redirect($route)
 	{
-		header('Location: '.(isset($_SERVER['HTTPS']) ? 'https' : 'http').'://'.$_SERVER['HTTP_HOST'].app('base_url').(($route == '/') ? '' : $route));
+		header('Location: '.(isset($_SERVER['HTTPS']) ? 'https' : 'http').'://'.$_SERVER['HTTP_HOST'].app('base_url').($route == '/' ? '' : $route));
 	    exit;
 	}
 }
@@ -45,5 +45,13 @@ if (!function_exists('asset'))
     function asset($path) 
     {
         echo app('base_url').app('assets_path').$path;
+    }
+}
+
+if (!function_exists('url'))
+{
+    function url($url) 
+    {
+        echo app('base_url').($url == '/' ? '' : $url);
     }
 }

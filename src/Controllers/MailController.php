@@ -16,41 +16,37 @@ class MailController extends Controller {
         $message_content .= '';
         $return = array();
         $message = "";
+        $tipo_form = $data['tipo_form'];
+
+        $configs = include __DIR__.'/../../config/mail.php';
+
+        $fromName = !empty($data['name']) ? $data['name'] : 'Usuário';
+        $phone = !empty($data['phone']) ? $data['phone'] : null;
+        $fromEmail = !empty($data['email']) ? $data['email'] : null;
+        $service = !empty($data['service']) ? $data['service'] : null;
+        $message = !empty($data['message']) ? $data['message'] : null;
 
         $mail = new PHPMailer();
         $mail->IsSMTP();
-        $mail->SMTPDebug = SMTP_DEBUG;
-        $mail->Host = SMTP_HOST;
-        $mail->Port = SMTP_PORT;
-        $mail->SMTPSecure = SMTP_SECURE;
-        $mail->SMTPAuth = SMTP_AUTH;
-        $mail->Username = SMTP_USER;
-        $mail->Password = SMTP_PASS;
-        $fromName = SMTP_NAME;
-        $mail->SetFrom(SMTP_FROM, $fromName);
+        $mail->SMTPDebug = $configs['SMTP_DEBUG'];
+        $mail->Host = $configs['SMTP_HOST'];
+        $mail->Port = $configs['SMTP_PORT'];
+        $mail->SMTPSecure = $configs['SMTP_SECURE'];
+        $mail->SMTPAuth = $configs['SMTP_AUTH'];
+        $mail->Username = $configs['SMTP_USER'];
+        $mail->Password = $configs['SMTP_PASS'];
+        $mail->SetFrom($fromEmail, 'Teste');
 
-        $name = !empty($data['name']) ? $data['name'] : 'Usuário';
-        $phone = !empty($data['phone']) ? $data['phone'] : null;
-        $email_reply = !empty($data['email_reply']) ? $data['email_reply'] : null;
-        $service = !empty($data['service']) ? $data['service'] : null;
-        $message = !empty($data['message']) ? $data['message'] : null;
-        $email_to = !empty($data['email_to']) ? $data['email_to'] : null;
+        $email_to = $configs['SMTP_USER'];
+        $email_reply = $configs['SMTP_USER'];
 
+        if (isset($email_to))
+            $mail->AddAddress("$email_to");
 
-        if (isset($array->send_to))
-            $mail->AddAddress("{$array->send_to}", "$fromName");
-        else {
-            if (is_array($email_to)) {
-                foreach ($email_to as $emailt) $mail->AddAddress("$emailt", "$fromName");
-            } else {
-                $mail->AddAddress("$email_to", "$fromName");
-            }
-        }
-
-        $mail->addReplyTo("$email_reply", "$name");
+        $mail->addReplyTo("$email_reply", "Barbearia Progresso");
         $mail->IsHTML(true);
         $mail->CharSet = 'utf-8';
-        $mail->Subject  = "[".$tipo_form."] - Mensagem do Sr(a). ".$name." ";
+        $mail->Subject  = "[".$tipo_form."] - Agendado por. ".$from." ";
         $mail->Body = "$message";
 
         if (isset($_FILES) && array_key_exists("arquivo", $_FILES)) {

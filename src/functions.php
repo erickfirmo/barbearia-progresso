@@ -35,7 +35,7 @@ if (!function_exists('redirect'))
 {
 	function redirect($route)
 	{
-		header('Location: '.(isset($_SERVER['HTTPS']) ? 'https' : 'http').'://'.$_SERVER['HTTP_HOST'].$app['base_url'].$route);
+		header('Location: '.(isset($_SERVER['HTTPS']) ? 'https' : 'http').'://'.$_SERVER['HTTP_HOST'].app('base_url').$route);
 	    exit;
 	}
 }

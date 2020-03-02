@@ -1,5 +1,7 @@
 <?php
 
+ob_start();
+
 // Requires composer autoloader
 require_once __DIR__ . '/../vendor/autoload.php';
 

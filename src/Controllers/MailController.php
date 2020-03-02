@@ -14,7 +14,7 @@ class MailController extends Controller {
         $message_content = '';
         $message_content .= $writeHTML;
         $message_content .= '';
-        $return = array();
+        $return = [];
         $message = "";
         $tipo_form = $data['tipo_form'];
 
@@ -35,7 +35,7 @@ class MailController extends Controller {
         $mail->SMTPAuth = $configs['SMTP_AUTH'];
         $mail->Username = $configs['SMTP_USER'];
         $mail->Password = $configs['SMTP_PASS'];
-        $mail->SetFrom($fromEmail, 'Teste');
+        $mail->SetFrom($fromEmail, $fromName);
 
         $email_to = $configs['SMTP_USER'];
         $email_reply = $configs['SMTP_USER'];
@@ -46,7 +46,7 @@ class MailController extends Controller {
         $mail->addReplyTo("$email_reply", "Barbearia Progresso");
         $mail->IsHTML(true);
         $mail->CharSet = 'utf-8';
-        $mail->Subject  = "[".$tipo_form."] - Agendado por. ".$from." ";
+        $mail->Subject  = "[".$tipo_form."] - Agendado por. ".$fromName." ";
         $mail->Body = "$message";
 
         if (isset($_FILES) && array_key_exists("arquivo", $_FILES)) {
@@ -80,10 +80,10 @@ class MailController extends Controller {
         if ($enviado) {
             unset($tipo_form);
             $return['success'] = true;
-            $return['content'] = "$msg_sucesso_formulario";
+            $return['content'] = $data['status_success'];
         } else {
             $return['success'] = false;
-            $return['content'] = "Oops! Ocorreu um erro.";
+            $return['content'] = $data['status_error'];
         }
 
         if (SMTP_DEBUG)

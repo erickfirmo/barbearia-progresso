@@ -56,6 +56,9 @@
 		</div>
 	</form>
 
+
+	<div id="alertBox"></div>
+
 	
 	
 	

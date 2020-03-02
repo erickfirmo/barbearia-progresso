@@ -81,3 +81,11 @@ nav.navbar.navbar-inverse.one-menu-top.hidden-xs.hidden-sm {
     transition: .3s;
 
 }
+
+
+
+@media(min-width: 768px) {
+    .icon_1 {
+        display: none;
+    }
+}

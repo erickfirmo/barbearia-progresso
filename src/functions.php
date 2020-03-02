@@ -44,6 +44,6 @@ if (!function_exists('asset'))
 {
     function asset($path) 
     {
-        echo app('base_url').'/assets/'.$path;
+        echo app('base_url').app('assets_path').$path;
     }
 }

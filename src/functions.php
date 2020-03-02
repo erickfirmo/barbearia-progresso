@@ -20,10 +20,10 @@ if (!function_exists('jsonResponse'))
 
 if (!function_exists('redirect'))
 {
-	function redirect($file)
+	function redirect($route)
 	{
-    	header('Location: '.(isset($_SERVER['HTTPS']) ? 'https' : 'http').'://'.$_SERVER['HTTP_HOST'].$route);
-	    exit();
+    	//header('Location: '.(isset($_SERVER['HTTPS']) ? 'https' : 'http').'://'.$_SERVER['HTTP_HOST'].$route);
+	    //exit();
 	}
 }
 

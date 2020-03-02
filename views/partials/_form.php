@@ -56,17 +56,9 @@
 		</div>
 	</form>
 
-	<div id="sendingMessage" class="statusMessage">
-		<p><i class="fa fa-spin fa-spinner"></i> Enviando sua mensagem. Aguarde por favor...</p>
-	</div>
-	<div id="successMessage" class="successmessage">
-		<p><i class="fa fa-check"></i> Obrigado por enviar a sua mensagem! Entraremos em contato em breve.</p>
-	</div>
-	<div id="failureMessage" class="errormessage">
-		<p><i class="fa fa-close"></i> Ocorreu um problema ao enviar sua mensagem. Por favor, tente novamente.</p>
-	</div>
-	<div id="incompleteMessage" class="statusMessage">
-		<p><i class="fa fa-warning"></i> Por favor, preencha todos os campos do formulário antes de enviar.</p>
-	</div>
+	
+	
+	
+	
 	
 </div>

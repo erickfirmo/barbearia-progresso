@@ -33,6 +33,8 @@ class SiteController extends Controller {
                     'service' => $service,
                     'message' => $message,
                     'tipo_form' => 'Agendamento',
+                    'status_success' => '200',
+                    'status_error' => '500',
                 ]);
 
                 //return json

@@ -103,10 +103,8 @@
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="<?php asset('js/gmap.js'); ?>"></script>
 
+<script src="<?php asset('js/custom.js'); ?>"></script>
 
-<script>
-
-</script>
 
 </body>
 </html>

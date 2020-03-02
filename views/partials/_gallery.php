@@ -57,7 +57,7 @@
 				</div>
 				<div class="clearfix"></div>
 				<div class="space30"></div>
-				<a href="#" class="main-btn">Ver no Instagram</a>
+				<a href="https://www.instagram.com/vncsss/?hl=pt-br" target="_blank" class="main-btn">Ver no Instagram</a>
 			</div>
 		</div>
 	</section>

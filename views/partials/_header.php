@@ -17,7 +17,7 @@
                             </div>
 
                             <div class="col-md-4">
-                                <a href="#" class="navbar-brand"><img class="img-responsive main-logo" src="<?php asset('images/home-page/main-page-logo.png'); ?>" alt=""></a>
+                                <a href="<?php url('/'); ?>" class="navbar-brand"><img class="img-responsive main-logo" src="<?php asset('images/home-page/main-page-logo.png'); ?>" alt=""></a>
                             </div>
 
                             <div class="col-md-4">

@@ -12,4 +12,6 @@ return [
 
     'locale' => 'pt-BR',
 
+    'assets_path' => '/public/assets/',
+
 ];

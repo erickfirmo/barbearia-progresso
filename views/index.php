@@ -105,6 +105,15 @@
 
 <script src="<?php asset('js/custom.js'); ?>"></script>
 
+<?php
+
+if(isset($_SESSION['mail_response']))
+{
+	echo '<script>statusMessage('.$_SESSION['mail_response'].', "#alertBox", "validation/alerts.json");</script>';
+	unset($_SESSION['mail_response']);
+}
+
+?>
 
 </body>
 </html>

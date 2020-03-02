@@ -51,3 +51,33 @@ select.custom-select:focus {
 .zoom-in {
     cursor: zoom-in;
 }
+
+
+#onepage .is-sticky .one-menu-top .navbar-brand {
+	height: 154px;
+}
+
+
+nav.navbar.navbar-inverse.one-menu-top.hidden-xs.hidden-sm {
+    height: 154px;
+}
+
+#onepage .is-sticky .navbar-nav {
+    margin-top: 44px;
+}
+
+#onepage .is-sticky .navbar-brand {
+    width: 100%;
+    margin: auto;
+
+}
+
+#onepage .is-sticky .navbar-brand > img.main-logo {
+    height: 154px;
+    width: auto;
+    margin: auto;
+    padding: 16px;
+    
+    transition: .3s;
+
+}

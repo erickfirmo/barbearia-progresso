@@ -24,34 +24,26 @@
 				<div class="portfolio-gal corte">
 					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="<?php asset('images/cortes/gallery/1.jpg'); ?>" class="pop_lbox">
-								<div class="overlay-bg"></div>
-								<img src="<?php asset('images/cortes/gallery/1.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
-							</a>
+							<div class="overlay-bg"></div>
+							<img src="<?php asset('images/cortes/gallery/1.jpg'); ?>" onclick="openModal();currentSlide(1)" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 						</div>
 					</div>
 					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="<?php asset('images/cortes/gallery/2.jpg'); ?>" class="pop_lbox">
-								<div class="overlay-bg"></div>
-								<img src="<?php asset('images/cortes/gallery/2.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
-							</a>
+							<div class="overlay-bg"></div>
+							<img src="<?php asset('images/cortes/gallery/2.jpg'); ?>" onclick="openModal();currentSlide(2)" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 						</div>
 					</div>
 					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="<?php asset('images/cortes/gallery/3.jpg'); ?>" class="pop_lbox">
-								<div class="overlay-bg"></div>
-								<img src="<?php asset('images/cortes/gallery/3.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
-							</a>
+							<div class="overlay-bg"></div>
+							<img src="<?php asset('images/cortes/gallery/3.jpg'); ?>" onclick="openModal();currentSlide(3)" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 						</div>
 					</div>
 					<div class="folio-item corte col-sm-12 col-sm-6 col-md-6 col-lg-6">
 						<div class="folio-thumb">
-							<a href="<?php asset('images/cortes/gallery/4.jpg'); ?>" class="pop_lbox">
-								<div class="overlay-bg"></div>
-								<img src="<?php asset('images/cortes/gallery/4.jpg'); ?>" class="img-responsive" alt="Corte de Cabelo Masculino"/>
-							</a>
+							<div class="overlay-bg"></div>
+							<img src="<?php asset('images/cortes/gallery/4.jpg'); ?>" onclick="openModal();currentSlide(4)" class="img-responsive" alt="Corte de Cabelo Masculino"/>
 						</div>
 					</div>
 				</div>
@@ -62,3 +54,51 @@
 		</div>
 	</section>
 	<!-- GALLERY -->
+
+<div id="lightbox-model" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="lightbox-slides">
+      <div class="numbertext">1 / 4</div>
+      <img src="<?php asset('images/cortes/gallery/1.jpg'); ?>" style="width:100%">
+    </div>
+
+    <div class="lightbox-slides">
+      <div class="numbertext">2 / 4</div>
+      <img src="<?php asset('images/cortes/gallery/2.jpg'); ?>" style="width:100%">
+    </div>
+
+    <div class="lightbox-slides">
+      <div class="numbertext">3 / 4</div>
+      <img src="<?php asset('images/cortes/gallery/3.jpg'); ?>" style="width:100%">
+    </div>
+    
+    <div class="lightbox-slides">
+      <div class="numbertext">4 / 4</div>
+      <img src="<?php asset('images/cortes/gallery/4.jpg'); ?>" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="<?php asset('images/cortes/gallery/1.jpg'); ?>" style="width:100%" onclick="currentSlide(1)" alt="Corte">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="<?php asset('images/cortes/gallery/2.jpg'); ?>" style="width:100%" onclick="currentSlide(2)" alt="Corte">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="<?php asset('images/cortes/gallery/3.jpg'); ?>" style="width:100%" onclick="currentSlide(3)" alt="Corte">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="<?php asset('images/cortes/gallery/4.jpg'); ?>" style="width:100%" onclick="currentSlide(4)" alt="Corte">
+	</div>
+	
+  </div>
+</div>

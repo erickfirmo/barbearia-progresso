@@ -4,7 +4,10 @@
 $router->setNamespace('System\Controllers\\');
 
 // Defining routes
-$router->get(['/', 'SiteController@index']);
+$router->get('/', 'SiteController', 'index', 'home');
 
-$router->post(['/agendar', 'SiteController@agendar']);
+
+#$router->post('/agendar', 'SiteController', 'agendar', 'agendar');
+
+
   

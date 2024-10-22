@@ -70,7 +70,7 @@
                         <img class="icon_2" src="<?php asset('images/home-page/hover-service-img1.png'); ?>" alt="Ícone tesoura">
                     </span>
                     <div class="service-info">
-                        <h4>Lorem ipsum</h4>
+                        <h4>Penteado</h4>
                         <p>Mauris tristique nisl ut quam faucibus, ac volutpat urna dictum. Vestibulum tincidunt</p>
                     </div>
                 </div>

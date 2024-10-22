@@ -1326,7 +1326,7 @@ h1 {
 }
 
 .portfolio-gal .folio-item {
-	width:50%;
+	/*idth:50%;*/
 	padding:0;
 	margin-bottom:0;
 	position:relative;

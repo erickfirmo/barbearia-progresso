@@ -16,7 +16,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="assets/images/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="<?php asset('images/favicon.png'); ?>">
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="<?php asset('css/bootstrap.css'); ?>">

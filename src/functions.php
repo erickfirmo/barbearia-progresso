@@ -19,7 +19,7 @@ if (!function_exists('view'))
 {
 	function view($file)
 	{
-    	include '../views/'.$file.'.php';
+    	include __DIR__.'/../views/'.$file.'.php';
 	}
 }
 

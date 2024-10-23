@@ -2,7 +2,7 @@
 
 return [
 
-    'base_url' => '/',
+    'base_url' => '/barbearia-progresso/',
 
     'project_name' => 'Barbearia Progresso',
 
@@ -12,6 +12,6 @@ return [
 
     'locale' => 'pt-BR',
 
-    'assets_path' => 'assets/',
+    'assets_path' => 'public/assets/',
 
 ];

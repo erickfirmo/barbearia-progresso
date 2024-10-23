@@ -1,6 +1,6 @@
 <div class="form-contact">
 
-	<form id="contactForm" action="agendar" method="post" class="positioned">
+	<form id="contactForm" class="positioned">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="control-group">
@@ -44,15 +44,17 @@
 					</div>
 				</div>
 			</div>
-		
-		</div>
-		<div class="row">
-			<!-- <div class="form-group col-xs-12">
-				<div class="g-recaptcha" data-sitekey=""></div>
-			</div> -->
-			<div class="form-group col-xs-12">
-				<button type="submit" class="button btn-full btn-lg" style="font-size: 18px;"><i class="fa fa-cut" style="font-size: 20px; padding-right: 10px;display:none;"></i> Solicitar Agendamento</button>
+
+			<div class="col-md-12">
+				<div class="control-group">
+					<div class="form-group col-xs-12 controls">
+					<button type="submit" class="button btn-full btn-lg" style="font-size: 18px;" id="btnSubmit">
+						Solicitar Agendamento
+					</button>
+					</div>
+				</div>
 			</div>
+		
 		</div>
 	</form>
 

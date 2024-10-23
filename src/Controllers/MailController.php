@@ -37,8 +37,8 @@ class MailController extends Controller {
         $mail->Password = $configs['SMTP_PASS'];
         $mail->SetFrom($fromEmail, $fromName);
 
-        $email_to = $configs['SMTP_USER'];
-        $email_reply = $configs['SMTP_USER'];
+        $email_to = $configs['MAIL_TO'];
+        $email_reply = $configs['MAIL_TO'];
 
         if (isset($email_to))
             $mail->AddAddress("$email_to");
@@ -47,7 +47,7 @@ class MailController extends Controller {
         $mail->IsHTML(true);
         $mail->CharSet = 'utf-8';
         $mail->Subject  = "[".$tipo_form."] - Agendado por. ".$fromName." ";
-        $mail->Body = "$message";
+        $mail->Body = $message ? "$message" : '--';
 
         if (isset($_FILES) && array_key_exists("arquivo", $_FILES)) {
             $file = (isset($_FILES["arquivo"])) ? $_FILES["arquivo"] : FALSE;
@@ -79,14 +79,15 @@ class MailController extends Controller {
 
         if ($enviado) {
             unset($tipo_form);
-            $return['success'] = true;
-            $return['content'] = $data['status_success'];
+            $return['status'] = $data['status_success'];
+            $return['message'] = 'Enviado';
+
         } else {
-            $return['success'] = false;
-            $return['content'] = $data['status_error'];
+            $return['status'] = $data['status_error'];
+            $return['message'] = 'Erro ao enviar';
         }
 
-        if (SMTP_DEBUG)
+        if (SMTP_DEBUG && $mail->ErrorInfo)
             echo "Informações do erro: " . $mail->ErrorInfo;
         else
             return $return;

@@ -15,7 +15,7 @@
             <li><a href="#" class="fa fa-rss"></a></li> -->
         </ul>
         <p>&copy; 2020 Barbearia Progresso</p>
-        <p>Desenvolvido por <a target="_blank" href="https://erickfirmo.dev">Érick Firmo.</a> Todos os direitos reservados.</p>
+        <p>Desenvolvido por <a target="_blank" href="https://www.erickfirmo.dev">Erick Firmo.</a> Todos os direitos reservados.</p>
     </div>
 </footer>
 <!-- FOOTER -->

@@ -19,6 +19,19 @@ class SiteController extends Controller {
         $service = isset($_POST['service']) ? $_POST['service'] : null;
         $message = isset($_POST['message']) ? $_POST['message'] : null;
 
+        $data = [
+            'name' => $name,
+            'email' => $email,
+            'phone' => $phone,
+            'service' => $service,
+            'message' => $message,
+            'tipo_form' => 'Agendamento',
+            'status_success' => '200',
+            'status_error' => '500',
+        ];
+
+        //var_dump($data);exit;
+
         $recaptcha_response = $_POST['g-recaptcha-response'];
         $recaptcha_secret_key = '<secret_key>';
 
@@ -26,19 +39,9 @@ class SiteController extends Controller {
             //$answer = json_decode(file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response='.$recaptcha_response));
             //if($answer->success) {
 
-                $_SESSION['mail_response'] = MailController::send([
-                    'name' => $name,
-                    'email' => $email,
-                    'phone' => $phone,
-                    'service' => $service,
-                    'message' => $message,
-                    'tipo_form' => 'Agendamento',
-                    'status_success' => '200',
-                    'status_error' => '500',
-                ]);
+                $response = MailController::send($data);
 
-                //return json
-                return redirect('/');
+                echo json_encode($response);exit;
             //}
         //}
 

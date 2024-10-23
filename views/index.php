@@ -104,15 +104,44 @@
 
 <script src="<?php asset('js/custom.js'); ?>"></script>
 
-<?php
+<script>
+	$('#contactForm').on('submit', function(e) { 
+		e.preventDefault();
 
-if(isset($_SESSION['mail_response']))
-{
-	echo '<script>statusMessage('.$_SESSION['mail_response'].', "#alertBox", "validation/alerts.json");</script>';
-	unset($_SESSION['mail_response']);
-}
 
-?>
+		var btnText = $('#btnSubmit').text();
+
+		$('#btnSubmit').text('Enviando...');
+		$('#btnSubmit').css('opacity', '.6');;
+		$('#btnSubmit').css('pointer-events', 'none');;
+
+
+		var formData = $(this).serialize();
+
+		$.ajax({
+			type: 'POST',
+			url: '/barbearia-progresso/agendar',
+			data: formData,
+			dataType: 'json',
+			success: function(response) {
+				console.log(response)
+				if (response.status == 200) {
+					alert('Formulário enviado com sucesso!');
+				} else {
+					alert('Ocorreu um erro: ' + response.message);
+				}
+
+				$('#btnSubmit').text(btnText);
+				$('#btnSubmit').css('opacity', '1');;
+				$('#btnSubmit').css('pointer-events', 'unset');
+			},
+			error: function(xhr, status, error) {
+				console.error('Erro: ', error);
+			}
+		});
+
+	})
+</script>
 
 </body>
 </html>

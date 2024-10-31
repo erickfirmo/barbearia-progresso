@@ -25,21 +25,25 @@ class SiteController extends Controller {
             'phone' => $phone,
             'service' => $service,
             'message' => $message,
-            'tipo_form' => 'Agendamento',
-            'status_success' => '200',
-            'status_error' => '500',
+            'tipo_form' => 'Barbearia Progresso Agendamento'
         ];
 
         //var_dump($data);exit;
 
-        $recaptcha_response = $_POST['g-recaptcha-response'];
-        $recaptcha_secret_key = '<secret_key>';
+        //$recaptcha_response = $_POST['g-recaptcha-response'];
+        //$recaptcha_secret_key = '<secret_key>';
 
         //if(isset($recaptcha_response) && !empty($recaptcha_response)){
             //$answer = json_decode(file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response='.$recaptcha_response));
             //if($answer->success) {
 
                 $response = MailController::send($data);
+
+                /*$response = [
+                                'status' => 200,
+                                'message' => 'A requisição em si funciona, ufa!',
+                                'data' => $data,
+                            ];*/
 
                 echo json_encode($response);exit;
             //}

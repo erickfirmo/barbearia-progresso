@@ -46,7 +46,7 @@ class MailController extends Controller {
         $mail->addReplyTo("$email_reply", "Barbearia Progresso");
         $mail->IsHTML(true);
         $mail->CharSet = 'utf-8';
-        $mail->Subject  = "[".$tipo_form."] - Agendado por. ".$fromName." ";
+        $mail->Subject  = "[$tipo_form] - $fromName ";
         $mail->Body = $message ? "$message" : '--';
 
         if (isset($_FILES) && array_key_exists("arquivo", $_FILES)) {
@@ -79,17 +79,17 @@ class MailController extends Controller {
 
         if ($enviado) {
             unset($tipo_form);
-            $return['status'] = $data['status_success'];
+            $return['status'] = 200;
             $return['message'] = 'Enviado';
 
         } else {
-            $return['status'] = $data['status_error'];
-            $return['message'] = 'Erro ao enviar';
+            $return['status'] = 500;
+            $return['message'] = '(500)Server Error';
         }
 
         if (SMTP_DEBUG && $mail->ErrorInfo)
-            echo "Informações do erro: " . $mail->ErrorInfo;
-        else
-            return $return;
+            $return['message'] = "Informações do erro: " . $mail->ErrorInfo;
+        
+        return $return;
     }
 }
